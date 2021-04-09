@@ -1,0 +1,18 @@
+{
+  "write1": "acc",
+  "insts1": [
+    "0x0: acc = 0",
+    "0x1: i = strt",
+    "0x2: REF_0 = ARRAYACCESS arr i",
+    "0x3: acc = ADD acc REF_0"
+  ],
+  "write2": "acc",
+  "insts2": [
+    "0x1: acc = 0",
+    "0x2: i = strt",
+    "0x3: TMP_2 = LT i end",
+    "0x4: REF_2 = ARRAYACCESS arr i",
+    "0x5: acc = ADD acc REF_2",
+    "0x6: i = ADD i 1"
+  ]
+}

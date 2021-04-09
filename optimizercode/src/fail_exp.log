@@ -1,0 +1,179 @@
+Likely too Complicated:
+BlocksquareSeedSale_8.sol
+etherdoodleToken_1.sol
+FoxTradingToken_0.sol
+GeneNuggetsToken_13.sol
+GlitchGoonsItem_1.sol
+LinuxCNCoin_1.sol
+LooisCornerstoneHolder_0.sol
+LoveContribution_3.sol
+Redenom_3.sol
+StakeTreeMVP_2.sol
+TokenCrowdsale_0.sol
+TotlePrimary_0.sol
+vBitcoin_7.sol
+XdacTokenCrowdsale_13.sol
+XdacTokenCrowdsale_9.solz
+
+Fetch index with constraint:
+AddressWarsBeta_16.sol
+DRCWalletStorage_0.sol (keeps track of constant in iterator directly)
+EnishiCoin_1.sol
+FundCruCrowdsale_2.sol
+LockedStorage_0.sol (keeps track of constant in iterator directly)
+NXlottery_0.sol (keeps track of constant in iterator directly)
+ReleaseToken_0.sol (keeps track of constant in iterator directly)
+
+Fetch value with constraint:
+AddressWarsBeta_14.sol
+BinaryOptionV2_11.sol
+BinaryOptionV2_12.sol
+
+Count index with constraint:
+AddressWarsBeta_2.sol
+AddressWarsBeta_15.sol
+LoveBlocks_0.sol
+TournamentCore_5.sol
+TournamentCore_6.sol
+TournamentCore_7.sol
+TournamentCore_8.sol
+
+CopyRange with cast:
+AddressWarsBeta_29.sol
+PlayerExchangeCore_0.sol
+
+Get Indices with constraint:
+AddressWarsBeta_3.sol
+
+ShiftRange with extra array access:
+AddressWarsBeta_6.sol
+ContractStakeToken_3.sol
+
+CopyRange with nested array:
+AFIToken_2.sol
+RequestOMG_0.sol
+SpindleToken_1.sol
+WFchainToken_0.sol
+WFTToken_0.sol
+
+Require:
+AlphaconCrowdsale_0.sol
+BlokToken_0.sol
+CbntCrowdsale_0.sol
+DagtCrowdsale_0.sol
+LxtBonusDistribution_2.sol
+SkrumbleStaking_2.sol
+VePortfolio_0.sol
+
+CopyRange with expr indices: (A lot of these seem like the same loop?)
+BinaryOptionV2_19.sol
+DataController_5.sol
+EEMAsset_3.sol
+EtherTool_3.sol
+GameSicBo_2.sol
+GroupsAccessManager_3.sol
+NonOperationalWithdrawManager_3.sol
+PendingManager_3.sol
+ScratchTickets_2.sol
+SelectOne_2.sol
+ServiceController_3.sol
+SPYAsset_3.sol
+TournamentCore_30.sol
+XMIAsset_3.sol
+HHLCTOKEN_0.sol
+
+Map with constraint:
+BioXToken_3.sol
+
+Delete at index with constraint:
+BlokToken_1.sol
+VTK_1.sol
+
+ERROR: Sum lambda which should be handled currently:
+BSPMintable_6.sol
+
+Map Iterator (i.e. arr[i] = i):
+CommUtils_4.sol
+
+Array of cumulative sums up to N:
+CryptoCrystal_0.sol
+
+Sum with extra array access:
+Dcmc_0.sol
+TournamentCore_3.sol (two accesses)
+Umx_0.sol
+SpecialWallet_0.sol
+
+Loop with no assignment?:
+Delivery_0.sol
+
+Loop which could be made into single statement:
+DonQuixoteToken_2.sol
+I4D_Contract_2.sol
+
+DeleteRange:
+EmissionProvider_6.sol
+Profiterole_6.sol (with nested array access)
+SpecialWallet_4.sol
+VTK_2.sol
+
+UpdateRange lambda:
+EnishiCoin_0.sol
+MintDRCT_0.sol
+
+Check if any element matches constraint:
+EnishiCoin_3.sol
+WorldCup2018_0.sol
+
+Bitwise OR-Sum:
+EstateRegistry_1.sol
+
+More complex guard end:
+EthealDeposit_6.sol
+
+Push to nested array:
+EthPlot_0.sol
+
+CopyRange with constraint:
+FidelityHousePrivateSale_0.sol
+TokenVesting_2.sol (and expr indices)
+
+Sum with nested array access:
+HareemMinePoolToken_0.sol
+NovaBox_0.sol
+
+GuardEnd as expression:
+ItemSelling_8.sol
+Queue_1.sol
+SpecialWallet_2.sol
+EnishiCoin_2.sol
+
+ShiftLeft up to constraint:
+LooisCornerstoneHolder_1.sol
+
+UpdateRange with constraint:
+MeshXToken_3.sol
+
+Sum with constraint:
+Namahecrowdsale_0.sol
+
+MapLambda with nested array access:
+PonyToken_0.sol
+
+ERROR: Handling of bytes as arrays
+ReleaseAndLockToken_11.sol
+ShipCoinStorage_9.sol
+
+CopyRange and set length:
+ShipCoinStorage_0.sol
+ShipCoinStorage_1.sol
+ShipCoinStorage_25.sol (with constraint)
+ShipCoinStorage_3.sol
+ShipCoinStorage_4.sol
+
+ShiftRight:
+SpecialWallet_3.sol
+
+ERROR (no idea what's happening)
+EmissionProvider_5.sol (SIF fails for some reason on extraction)
+OnacleToken_0.sol (saved indices change when using replace safemath?)
